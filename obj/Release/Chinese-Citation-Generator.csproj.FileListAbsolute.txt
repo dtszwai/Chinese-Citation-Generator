@@ -1,0 +1,9 @@
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\bin\Release\Chinese-Citation-Generator.exe.config
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\bin\Release\Chinese-Citation-Generator.exe
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\bin\Release\Chinese-Citation-Generator.pdb
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\obj\Release\Chinese_Citation_Generator.App.resources
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\obj\Release\Chinese_Citation_Generator.Properties.Resources.resources
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\obj\Release\Chinese-Citation-Generator.csproj.GenerateResource.cache
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\obj\Release\Chinese-Citation-Generator.csproj.CoreCompileInputs.cache
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\obj\Release\Chinese-Citation-Generator.exe
+C:\Users\TAM Tsz Wai\Documents\GitHub\Chinese-Citation-Generator\obj\Release\Chinese-Citation-Generator.pdb

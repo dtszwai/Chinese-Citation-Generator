@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_BookExt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_BookExt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_BookExt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 15</value>
+  </data>
+  <data name="label_BookExt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="label_BookExt.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="label_BookExt.Text" xml:space="preserve">
+    <value>BookExt</value>
+  </data>
+  <data name="label_BookExt.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_BookExt.Name" xml:space="preserve">
+    <value>label_BookExt</value>
+  </data>
+  <data name="&gt;&gt;label_BookExt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_BookExt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_BookExt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bookExt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 29</value>
+  </data>
+  <data name="bookExt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="bookExt.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="bookExt.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;bookExt.Name" xml:space="preserve">
+    <value>bookExt</value>
+  </data>
+  <data name="&gt;&gt;bookExt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookExt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookExt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="reset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="reset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 406</value>
+  </data>
+  <data name="reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="reset.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="reset.Text" xml:space="preserve">
+    <value>清空書目表</value>
+  </data>
+  <data name="&gt;&gt;reset.Name" xml:space="preserve">
+    <value>reset</value>
+  </data>
+  <data name="&gt;&gt;reset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;reset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Import.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Import.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 713</value>
+  </data>
+  <data name="Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="Import.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="Import.Text" xml:space="preserve">
+    <value>讀取</value>
+  </data>
+  <data name="&gt;&gt;Import.Name" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="&gt;&gt;Import.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Import.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Import.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 416</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>引用書目表</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 703</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>視窗固定最上層</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 248</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>期號</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="journalIssue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 263</value>
+  </data>
+  <data name="journalIssue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="journalIssue.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;journalIssue.Name" xml:space="preserve">
+    <value>journalIssue</value>
+  </data>
+  <data name="&gt;&gt;journalIssue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalIssue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;journalIssue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="journalYearlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="journalYearlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="journalYearlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 248</value>
+  </data>
+  <data name="journalYearlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="journalYearlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="journalYearlabel.Text" xml:space="preserve">
+    <value>出版年份</value>
+  </data>
+  <data name="&gt;&gt;journalYearlabel.Name" xml:space="preserve">
+    <value>journalYearlabel</value>
+  </data>
+  <data name="&gt;&gt;journalYearlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalYearlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;journalYearlabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="journalYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 263</value>
+  </data>
+  <data name="journalYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="journalYear.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;journalYear.Name" xml:space="preserve">
+    <value>journalYear</value>
+  </data>
+  <data name="&gt;&gt;journalYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalYear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;journalYear.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkbox_SelectedEssays.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkbox_SelectedEssays.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 9pt</value>
+  </data>
+  <data name="checkbox_SelectedEssays.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkbox_SelectedEssays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 10</value>
+  </data>
+  <data name="checkbox_SelectedEssays.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkbox_SelectedEssays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="checkbox_SelectedEssays.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="checkbox_SelectedEssays.Text" xml:space="preserve">
+    <value>論集論文</value>
+  </data>
+  <data name="&gt;&gt;checkbox_SelectedEssays.Name" xml:space="preserve">
+    <value>checkbox_SelectedEssays</value>
+  </data>
+  <data name="&gt;&gt;checkbox_SelectedEssays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkbox_SelectedEssays.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkbox_SelectedEssays.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="linkLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 726</value>
+  </data>
+  <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="linkLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="linkLabel2.Text" xml:space="preserve">
+    <value>論文撰作簡介</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
+    <value>linkLabel2</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="articleFootnote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 319</value>
+  </data>
+  <data name="articleFootnote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 22</value>
+  </data>
+  <data name="articleFootnote.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;articleFootnote.Name" xml:space="preserve">
+    <value>articleFootnote</value>
+  </data>
+  <data name="&gt;&gt;articleFootnote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;articleFootnote.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articleFootnote.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lockEssay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lockEssay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lockEssay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 347</value>
+  </data>
+  <data name="lockEssay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="lockEssay.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lockEssay.Text" xml:space="preserve">
+    <value>鎖定</value>
+  </data>
+  <data name="&gt;&gt;lockEssay.Name" xml:space="preserve">
+    <value>lockEssay</value>
+  </data>
+  <data name="&gt;&gt;lockEssay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lockEssay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lockEssay.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="clearEssayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clearEssayButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 347</value>
+  </data>
+  <data name="clearEssayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="clearEssayButton.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="clearEssayButton.Text" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="&gt;&gt;clearEssayButton.Name" xml:space="preserve">
+    <value>clearEssayButton</value>
+  </data>
+  <data name="&gt;&gt;clearEssayButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearEssayButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clearEssayButton.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 248</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>頁碼</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="articlePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 263</value>
+  </data>
+  <data name="articlePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="articlePage.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;articlePage.Name" xml:space="preserve">
+    <value>articlePage</value>
+  </data>
+  <data name="&gt;&gt;articlePage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;articlePage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articlePage.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="deleteSelectedRow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteSelectedRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 713</value>
+  </data>
+  <data name="deleteSelectedRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="deleteSelectedRow.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="deleteSelectedRow.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="&gt;&gt;deleteSelectedRow.Name" xml:space="preserve">
+    <value>deleteSelectedRow</value>
+  </data>
+  <data name="&gt;&gt;deleteSelectedRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteSelectedRow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deleteSelectedRow.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="secondAuthorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="secondAuthorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="secondAuthorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 15</value>
+  </data>
+  <data name="secondAuthorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="secondAuthorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="secondAuthorLabel.Text" xml:space="preserve">
+    <value>第二作者</value>
+  </data>
+  <data name="&gt;&gt;secondAuthorLabel.Name" xml:space="preserve">
+    <value>secondAuthorLabel</value>
+  </data>
+  <data name="&gt;&gt;secondAuthorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;secondAuthorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;secondAuthorLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="bookPageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bookPageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bookPageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 55</value>
+  </data>
+  <data name="bookPageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="bookPageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="bookPageLabel.Text" xml:space="preserve">
+    <value>頁碼</value>
+  </data>
+  <data name="&gt;&gt;bookPageLabel.Name" xml:space="preserve">
+    <value>bookPageLabel</value>
+  </data>
+  <data name="&gt;&gt;bookPageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookPageLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookPageLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="bookFootnote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 129</value>
+  </data>
+  <data name="bookFootnote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 22</value>
+  </data>
+  <data name="bookFootnote.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;bookFootnote.Name" xml:space="preserve">
+    <value>bookFootnote</value>
+  </data>
+  <data name="&gt;&gt;bookFootnote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookFootnote.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookFootnote.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Export.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Export.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 713</value>
+  </data>
+  <data name="Export.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="Export.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="Export.Text" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="&gt;&gt;Export.Name" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;Export.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Export.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Export.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="secondAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 29</value>
+  </data>
+  <data name="secondAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="secondAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;secondAuthor.Name" xml:space="preserve">
+    <value>secondAuthor</value>
+  </data>
+  <data name="&gt;&gt;secondAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;secondAuthor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;secondAuthor.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lockBook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lockBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lockBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 157</value>
+  </data>
+  <data name="lockBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="lockBook.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="lockBook.Text" xml:space="preserve">
+    <value>鎖定</value>
+  </data>
+  <data name="&gt;&gt;lockBook.Name" xml:space="preserve">
+    <value>lockBook</value>
+  </data>
+  <data name="&gt;&gt;lockBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lockBook.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lockBook.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="clearBookButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clearBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 157</value>
+  </data>
+  <data name="clearBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="clearBookButton.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="clearBookButton.Text" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="&gt;&gt;clearBookButton.Name" xml:space="preserve">
+    <value>clearBookButton</value>
+  </data>
+  <data name="&gt;&gt;clearBookButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearBookButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clearBookButton.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="articleReference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 291</value>
+  </data>
+  <data name="articleReference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 22</value>
+  </data>
+  <data name="articleReference.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;articleReference.Name" xml:space="preserve">
+    <value>articleReference</value>
+  </data>
+  <data name="&gt;&gt;articleReference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;articleReference.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articleReference.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 248</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>總頁數</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="articleTotalPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 263</value>
+  </data>
+  <data name="articleTotalPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="articleTotalPage.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;articleTotalPage.Name" xml:space="preserve">
+    <value>articleTotalPage</value>
+  </data>
+  <data name="&gt;&gt;articleTotalPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;articleTotalPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articleTotalPage.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="journalVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 263</value>
+  </data>
+  <data name="journalVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="journalVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;journalVolume.Name" xml:space="preserve">
+    <value>journalVolume</value>
+  </data>
+  <data name="&gt;&gt;journalVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;journalVolume.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 248</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>總期號</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 248</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>期刊名稱</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="journalTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 263</value>
+  </data>
+  <data name="journalTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="journalTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;journalTitle.Name" xml:space="preserve">
+    <value>journalTitle</value>
+  </data>
+  <data name="&gt;&gt;journalTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;journalTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;journalTitle.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 209</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>篇名</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 209</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="articleTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 223</value>
+  </data>
+  <data name="articleTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="articleTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;articleTitle.Name" xml:space="preserve">
+    <value>articleTitle</value>
+  </data>
+  <data name="&gt;&gt;articleTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;articleTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articleTitle.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="articleAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 223</value>
+  </data>
+  <data name="articleAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="articleAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;articleAuthor.Name" xml:space="preserve">
+    <value>articleAuthor</value>
+  </data>
+  <data name="&gt;&gt;articleAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;articleAuthor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articleAuthor.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="addBookButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 157</value>
+  </data>
+  <data name="addBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="addBookButton.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="addBookButton.Text" xml:space="preserve">
+    <value>加入</value>
+  </data>
+  <data name="&gt;&gt;addBookButton.Name" xml:space="preserve">
+    <value>addBookButton</value>
+  </data>
+  <data name="&gt;&gt;addBookButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addBookButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addBookButton.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="checkBox_BookEdition.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_BookEdition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_BookEdition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 31</value>
+  </data>
+  <data name="checkBox_BookEdition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="checkBox_BookEdition.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="checkBox_BookEdition.Text" xml:space="preserve">
+    <value>古籍</value>
+  </data>
+  <data name="&gt;&gt;checkBox_BookEdition.Name" xml:space="preserve">
+    <value>checkBox_BookEdition</value>
+  </data>
+  <data name="&gt;&gt;checkBox_BookEdition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_BookEdition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_BookEdition.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="bookReference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 101</value>
+  </data>
+  <data name="bookReference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 22</value>
+  </data>
+  <data name="bookReference.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;bookReference.Name" xml:space="preserve">
+    <value>bookReference</value>
+  </data>
+  <data name="&gt;&gt;bookReference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookReference.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookReference.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="publishYearLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="publishYearLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="publishYearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 55</value>
+  </data>
+  <data name="publishYearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="publishYearLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="publishYearLabel.Text" xml:space="preserve">
+    <value>出版年份</value>
+  </data>
+  <data name="&gt;&gt;publishYearLabel.Name" xml:space="preserve">
+    <value>publishYearLabel</value>
+  </data>
+  <data name="&gt;&gt;publishYearLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;publishYearLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;publishYearLabel.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="bookPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 69</value>
+  </data>
+  <data name="bookPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="bookPage.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;bookPage.Name" xml:space="preserve">
+    <value>bookPage</value>
+  </data>
+  <data name="&gt;&gt;bookPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookPage.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="publishYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 69</value>
+  </data>
+  <data name="publishYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="publishYear.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;publishYear.Name" xml:space="preserve">
+    <value>publishYear</value>
+  </data>
+  <data name="&gt;&gt;publishYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;publishYear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;publishYear.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="publisher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 69</value>
+  </data>
+  <data name="publisher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="publisher.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;publisher.Name" xml:space="preserve">
+    <value>publisher</value>
+  </data>
+  <data name="&gt;&gt;publisher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;publisher.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;publisher.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="publisherLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="publisherLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="publisherLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 55</value>
+  </data>
+  <data name="publisherLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="publisherLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="publisherLabel.Text" xml:space="preserve">
+    <value>出版社</value>
+  </data>
+  <data name="&gt;&gt;publisherLabel.Name" xml:space="preserve">
+    <value>publisherLabel</value>
+  </data>
+  <data name="&gt;&gt;publisherLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;publisherLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;publisherLabel.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="publishPlaceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="publishPlaceLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="publishPlaceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 55</value>
+  </data>
+  <data name="publishPlaceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="publishPlaceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="publishPlaceLabel.Text" xml:space="preserve">
+    <value>出版地點</value>
+  </data>
+  <data name="&gt;&gt;publishPlaceLabel.Name" xml:space="preserve">
+    <value>publishPlaceLabel</value>
+  </data>
+  <data name="&gt;&gt;publishPlaceLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;publishPlaceLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;publishPlaceLabel.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="publishPlace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 69</value>
+  </data>
+  <data name="publishPlace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="publishPlace.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;publishPlace.Name" xml:space="preserve">
+    <value>publishPlace</value>
+  </data>
+  <data name="&gt;&gt;publishPlace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;publishPlace.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;publishPlace.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="bookNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bookNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bookNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 55</value>
+  </data>
+  <data name="bookNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="bookNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="bookNameLabel.Text" xml:space="preserve">
+    <value>書名</value>
+  </data>
+  <data name="&gt;&gt;bookNameLabel.Name" xml:space="preserve">
+    <value>bookNameLabel</value>
+  </data>
+  <data name="&gt;&gt;bookNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookNameLabel.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="authorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="authorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="authorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 15</value>
+  </data>
+  <data name="authorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="authorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Name" xml:space="preserve">
+    <value>authorLabel</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="BookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 69</value>
+  </data>
+  <data name="BookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="BookName.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;BookName.Name" xml:space="preserve">
+    <value>BookName</value>
+  </data>
+  <data name="&gt;&gt;BookName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BookName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BookName.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="author.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 29</value>
+  </data>
+  <data name="author.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="author.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;author.Name" xml:space="preserve">
+    <value>author</value>
+  </data>
+  <data name="&gt;&gt;author.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;author.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;author.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="table.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 435</value>
+  </data>
+  <data name="table.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 253</value>
+  </data>
+  <data name="table.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;table.Name" xml:space="preserve">
+    <value>table</value>
+  </data>
+  <data name="&gt;&gt;table.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;table.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;table.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>564, 748</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAACMuAAAjLgAAAAAAAAAA
+        AAD//////v79//br5//y4Nr/8uDa//Lg2v/y4Nr/8uDa//Lg2v/y4Nr/8uDa//Lg2v/y4Nr/8uDa//Lg
+        2v/y4Nr/8uDa//Lg2v/y4Nr/8uDa//Lg2v/y4Nr/8uDa//Lg2v/y4Nr/8uDa//Lg2v/y4Nr/8uDa//br
+        5//+/v3////////////iuav/ulg4/7RKJ/+0Syj/tEso/7RLKP+0Syj/tEso/7RLKP+0Syj/tEso/7RL
+        KP+0Syj/tEso/7RLKP+0Syj/tEso/7RLKP+0Syj/tEso/7RLKP+0Syj/tEso/7RLKP+0Syj/tEso/7RL
+        KP+0Sif/ulg4/+K5q///////+O3q/7tbO/+9X0D/15+N/9efjf/YoI7/2aKQ/9mikP/Zo5D/15+M/9ac
+        iP/Xnov/2KKQ/9mjkf/ZopD/2aOR/9egjf/WnIn/1p2K/9iij//Zo5H/2aKQ/9mjkf/YoI7/1p2J/9ig
+        jv/YoY//16CN/9efjf+9X0D/u1s7//jt6v/0497/tU0r/9WZhf///////////+7Wzv/crJv/58a7/92u
+        nv/MhW3/xXNY/8l9ZP/YopD/5sO3/+jIvf/gs6T/zopz/8Z0Wf/IemD/1pyI/+XAtP/pyb7/4riq/9GP
+        ev/Hd13/3rCh//Pi3P/8+ff//////9WZhf+1TSv/9OPe//Tk3v+1Tiv/1ZqG///+/v/gtaf/u1s7/6w3
+        EP+vPxr/sUIe/7lXNv/AaEv/vF4//7JGIv+vPxr/rz8a/7BBHP+4UzL/wGdK/71hQv+zSSX/rz8a/68/
+        Gv+wQBv/t1Au/7lWNf+vPRf/s0km/+fEuf//////1ZmG/7VOK//05N7/9OTe/7VOK//Vmof/+/Xz/7tc
+        PP+0Sif/3a6e/+jGvP/u1c3/+O/r//35+P/69PH/8d3W/+jIvf/nxLn/7NLJ//fs6P/8+Pf/+/Xz//Ph
+        2//qzML/6Me8/+zSyf/26uX/9+zp/96vn/+1TCn/vF09//He2P/Wm4j/tU4r//Tk3v/05N7/tU4r/9ac
+        if/lwbT/sEAb/9acif//////////////////////////////////////////////////////////////
+        /////////Pf2/+/X0P/nxrv/7tfP//z39f///////////9GRfP+wQBv/79jQ/9acif+1Tiv/9OTe//Tk
+        3v+1Tiv/1p2J/9mikP+xQx7/79jR////////////////////////////////////////////////////
+        /////////////+/Z0f/EcVX/sUId/68/Gv+wQh3/xHFV/+/Z0f//////156L/7NIJf/05d//1puI/7VO
+        K//05N7/9OTe/7VOK//WnYn/5cG1/7BAGv/mxLj/////////////////////////////////////////
+        ///////////////////05uH/vF4//7VNK//apZT/6cm//9qmlP+1TSv/vF4///bp5f/iuKv/sEAa/+rN
+        w//WnIn/tU4r//Tk3v/05N7/tU4r/9aciP/y4Nr/skYi/9mkkv////////v7//7u7v/+7e3//u3t//7t
+        7f/+7e3//u3t//7z8////////////9efjf+wQRz/58a6//ry8P/z4t3/+vLv/+fFuv+wQRz/2KKQ//Db
+        1P+xRCD/3KqZ/9adif+1Tiv/9OTe//Tk3v+1Tiv/1puI//bo5P+0Syj/1ZmG///////70M7/9ouH//aK
+        hv/2iob/9oqG//aKhv/2iYX/+KGe//729v/+/fz/xXRZ/75jRf/8+Pb/47yv/7VNKv/fsaL//Pj3/75j
+        Rf/Gdlv/8+Ld/7RLKP/WnYr/1pyJ/7VOK//05N7/9OTe/7VOK//WnIj/8t/Z/7JFIf/ZpJL///////3q
+        6f/6w8H/+sG///rBv//6wb//+sG///rAvv/70dD///z8//79/P/GdVr/vmJD//v18//pysD/xHFV/+XA
+        s//69PL/vmJD/8d4Xf/u1s7/sUQf/9yqmv/WnYr/tU4r//Tk3v/05N7/tU4r/9adif/lwLT/rz8a/+bE
+        uP///////////////////////////////////////////////////////////9mkkv+wQBv/5L6y///+
+        /v/58O7//////+S+sv+wQBv/26eW/+K5q/+wQBv/6s3E/9acif+1Tiv/9OTe//Tk3v+1Tiv/1p2J/9mj
+        kf+zSCT/8uDa////////+/v//u7u//7t7f/+7e3//u3t//7t7f/+7e3//vPz////////////9unl/79k
+        Rv+zSCX/1ZqG/+S+sf/Vmob/s0gl/79kRv/37On/15+M/7NIJf/05eD/1puI/7VOK//05N7/9OTe/7VO
+        K//WnIn/15+M/7RKJv/05N////////vQzv/2i4f/9oqG//aKhv/2iob/9oqG//aJhf/4oZ7//vb2////
+        ////////8t/Y/8h7Yf+yRiL/sEAa/7JGIv/Ie2H/8t/Y///////Vm4f/tEon//Xn4//Wm4j/tU4r//Tk
+        3v/05N7/tU4r/9adiv/htqf/sEEc/+vOxf///////erp//rDwf/6wb//+sG///rBv//6wb//+sC+//vR
+        0P///Pz//////////////////Pn3//Hc1v/qzML/8dzW//z59////////////92tnf+xQh3/7tfP/9ac
+        if+1Tiv/9OTe//Tk3v+1Tiv/1pyJ/+/Z0f+xQx7/3Kub////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////7NDH/7BB
+        HP/gtKX/1p2K/7VOK//05N7/9OTe/7VOK//Wm4j/9efj/7RKJ//Vmof/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///05N//tEon/9eejP/WnIn/tU4r//Tk3v/05N7/tU4r/9abiP/05N7/s0gk/9efjf/+6un/+ru5//q6
+        uP/6urj/+rq4//q6uP/6urj/+rq4//q6uP/6urj/+rq4//q6uP/6urj/+rq4//q6uP/6urj/+rq4//q6
+        uP/6u7n//uno//Lg2v+zRyP/2aSS/9adif+1Tiv/9OTe//Tk3v+1Tiv/1pyJ/+nLwP+vPxr/4rqs//3V
+        1P/2j4v/9o6K//aOiv/2jor/9o6K//aOiv/2jor/9o6K//aOiv/2jor/9o6K//aOiv/2jor/9o6K//aO
+        iv/2jor/9o6K//aPi//91dT/5sO3/68/Gv/mwrf/1p2J/7VOK//05N7/9OTe/7VOK//WnYn/26iX/7JE
+        IP/w2tP///7///7z8v/+8vH//vLx//7y8f/+8vH//vLx//7y8f/+8vH//vLx//7y8f/+8vH//vLx//7y
+        8f/+8vH//vLx//7y8f/+8vH//vPy///////Zo5H/skYi//Lh2//WnIj/tU4r//Tk3v/05N7/tU4r/9ac
+        if/WnIn/tEon//Tl4P//////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////9WZhv+0Syj/9ujk/9abiP+1Tiv/9OTe//Tk
+        3v+1Tiv/1p2K/9yrmv+xQx//79jQ//////////////////////////////////7z8//+7e3//u3t//7t
+        7f/+7e3//u3t//7t7f/+7u7///v7////////////////////////////2qWT/7JFIf/y39j/1pyI/7VO
+        K//05N7/9OTe/7VOK//WnIn/687F/7BAG//gtaf////////////////////////////+9vb/+KGe//aJ
+        hf/2iob/9oqG//aKhv/2iob/9oqG//aLh//70M7////////////////////////////nxrv/sEAa/+S/
+        sv/WnYr/tU4r//Tk3v/05N7/tU4r/9abiP/05eD/s0gl/9ediv/////////////////////////////8
+        /P/70dD/+sC+//rBv//6wb//+sG///rBv//6wb//+sPB//3q6f///////////////////////////+/X
+        0P+xQh3/2KKQ/9adif+1Tiv/9OTe//Tk3v+1Tiv/1pyJ/+7Vzf+vPxn/0Y95////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////1JiE/7BBHP/nxbr/1pyJ/7VOK//05N7/9OTe/7VOK//Wm4j/8+Lc/75jRf+zSSX/2qaV//Xn
+        4//0497/6Me8/+O7rf/lwbX/8NrT//nx7//79fP/9ebi/+nKwP/ju67/5b+z/+7Wzv/47+z/+/b0//bq
+        5f/rzsT/5L6x/9qlk/+zRyP/vF4+//v29P/Vmof/tU4r//Tk3v/05N7/tU4r/9WZhv//////6Mi+/7ZP
+        Lf+vPhn/tlAu/7RLKP+wQBr/sEEc/7BAGv+yRSH/ulo5/71fQP+1Tiv/sEAb/7BBG/+wQBv/sUMf/7lX
+        Nv+9YEH/t1Ev/7BBG/+wQBv/rDcQ/75hQ//kvrH//////9Wahv+1Tiv/9OTe//Tj3v+1TSv/1JiE////
+        ///9+vn/9ujk/+K5q//LgWn/1ZqG/+bCtv/s0sn/6cm//9qmlf/MhGz/yn5l/9OUgP/kvbD/7NHI/+rM
+        wv/drJz/zYdw/8l9ZP/Rj3r/4riq/+vPxv/htqf/8NvU////////////1JiE/7VNK//0497/+O7r/7xe
+        Pv+6WTn/0pR//9KUf//TlYH/05WB/9KTfv/TloH/1JeD/9SXgv/Ul4L/1JeC/9KUf//Sk37/05aB/9SX
+        g//Ul4L/1JeC/9SXg//TlH//0pN+/9OVgP/Ul4P/1JeC/9SXgv/TlYH/0pR//9KUf/+6WTn/vF4+//ju
+        6///////5cC0/71gQf+3UC7/t1Ev/7dRL/+3US//t1Ev/7dRL/+3US//t1Ev/7dRL/+3US//t1Ev/7dR
+        L/+3US//t1Ev/7dRL/+3US//t1Ev/7dRL/+3US//t1Ev/7dRL/+3US//t1Ev/7dRL/+3US//t1Au/71g
+        Qf/lwLT//////////////v7/+fDt//Xn4//15+P/9efj//Xn4//15+P/9efj//Xn4//15+P/9efj//Xn
+        4//15+P/9efj//Xn4//15+P/9efj//Xn4//15+P/9efj//Xn4//15+P/9efj//Xn4//15+P/9efj//Xn
+        4//15+P/+fDt///+/v//////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>附註及引用書目</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
